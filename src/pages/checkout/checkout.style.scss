@@ -1,0 +1,19 @@
+.checkout-page {
+    padding: 7rem 28rem 0;
+
+    .heading {
+        font-size: 1.6rem;
+        text-transform: capitalize;
+        border-bottom: 1px solid rgb(143, 143, 143);
+        padding-bottom: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .total {
+        font-size: 3rem;
+        padding-top: 3rem;
+        display: grid;
+        justify-content: flex-end;
+    }
+}

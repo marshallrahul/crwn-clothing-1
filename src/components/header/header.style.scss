@@ -1,0 +1,21 @@
+.header {
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+    position: relative;
+
+    &__list { 
+        list-style: none; 
+        display: flex;
+    }
+
+    &__item {
+
+        &:not(:last-child) {
+            margin-right: 4rem;
+        }
+        
+    }
+}

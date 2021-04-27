@@ -1,0 +1,15 @@
+.collection-preview {
+    margin-bottom: 5rem;
+
+    .title {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        cursor: pointer;
+    }
+
+    .preview {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        column-gap: 5rem;
+    }
+}

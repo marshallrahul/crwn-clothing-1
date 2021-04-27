@@ -1,0 +1,53 @@
+.menu-item {
+    position: relative;
+    min-width: 30%;
+    height: 24rem;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0.75rem 1.5rem;
+    overflow: hidden;
+    border: 1px solid black;
+
+    .bg-photo {
+        height: 100%;
+        width: 100%;
+        background-position: top;
+        background-size: cover;
+        transition: transform 0.8s ease-in, opacity 0.1s;
+    }
+
+    &:hover .bg-photo {
+        transform: scale(1.08);
+        opacity: 0.9;
+    }
+
+    &.large {
+        height: 30rem;
+    }
+
+    .content {
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid black;
+        text-align: center;
+        height: 9rem;
+        width: 12rem;
+        padding-top: 1.8rem;
+        color: rgb(68, 68, 68);
+
+        &:hover {
+            color: black;
+            background-color: rgba(255, 255, 255, 0.4);
+        }
+    }
+
+    .sub-title {
+        font-size: 1.5rem;
+    }
+}

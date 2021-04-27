@@ -1,0 +1,22 @@
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+
+    .title {
+        font-weight: bold;
+    }
+
+    .details {
+        letter-spacing: 2px;
+    }
+
+    .photo {
+        background-size: cover;
+        background-position: center;
+        height: 8rem;
+        width: 6rem;
+        margin-right: 2rem;
+        border: 1px solid black;
+    }
+}

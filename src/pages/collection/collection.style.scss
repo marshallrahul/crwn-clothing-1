@@ -1,0 +1,24 @@
+.collection-page {
+    margin: 4rem 0 5rem;
+
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        font-size: 2.5rem;
+        font-weight: 300;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+    }
+
+    .items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        column-gap: 5rem;
+
+        & .collection-item {
+            margin-bottom: 3rem;
+        }
+    }
+}

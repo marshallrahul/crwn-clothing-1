@@ -1,0 +1,37 @@
+.group {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    /* width: 40rem; */
+    
+    .form-input {
+        border: none;
+        border-bottom: 1px solid black;
+        outline: none;
+        box-shadow: none;
+        height: 3.9rem;
+        padding-left: 1rem;
+    }
+
+    .form-input-label {
+        display: block;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        transition: transform 0.2s ease-out;
+    }
+    
+    .form-input:placeholder-shown { font-family: 'Open Sans Condensed', sans-serif; }
+    
+    .form-input:placeholder-shown + .form-input-label { 
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-3rem);
+        backface-visibility: hidden;
+    }
+    
+    .form-input:not(:placeholder-shown) + .form-input-label { transform: translateY(-5rem); }
+}
+
+
+
+

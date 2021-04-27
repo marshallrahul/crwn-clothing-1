@@ -1,0 +1,17 @@
+.cart-icon {
+    position: relative;
+    cursor: pointer;
+
+    .shopping-bag {
+        width: 2rem;
+        height: auto;
+    }
+
+    span {
+        position: absolute;
+        font-size: 1.2rem;
+        font-weight: bold;
+        left: 0.7rem;
+        top: 0.4rem;
+    }
+}

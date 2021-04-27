@@ -1,0 +1,29 @@
+.collection-item {
+    position: relative;
+
+    .bg-photo {
+        height: 35rem;
+        width: auto;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .content {
+        font-size: 1.8rem;
+        margin-top: 0.5rem;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .button {
+        position: absolute;
+        top: 70%;
+        left: 8%;
+        visibility: hidden;
+    }
+
+    &:hover .button {
+        visibility: visible;
+    }
+}
